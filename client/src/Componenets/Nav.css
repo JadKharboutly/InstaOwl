@@ -1,0 +1,42 @@
+.NavBar {
+  height: 60px;
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.Dashboard {
+  margin-right: 60px;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 15px;
+  border: 2px solid white;
+}
+.Dashboard:hover {
+  background-color: white;
+  color: rgb(185, 250, 199);
+  cursor: pointer;
+  user-select: none;
+}
+
+a:link,
+a:hover,
+a:active,
+:visited {
+  text-decoration: none;
+  font-style: none;
+  color: white;
+}
+.owl {
+  height: 50px;
+  border-radius: 200px;
+  margin-left: 60px;
+  opacity: 0.6;
+}

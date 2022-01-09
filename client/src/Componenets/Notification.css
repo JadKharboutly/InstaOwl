@@ -1,0 +1,138 @@
+.NotificationContainer {
+  width: 250px;
+  height: 100%;
+  /* background-color: rgb(29, 218, 29); */
+  right: 0;
+  position: fixed;
+  padding-top: 60px;
+  margin-right: 10px;
+}
+.Notification {
+  width: 250px;
+  height: 40px;
+  /* background-color: aqua; */
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: SlideLeft 0.4s;
+  animation-fill-mode: forwards;
+  margin-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+@keyframes SlideLeft {
+  0% {
+    margin-left: 120%;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+.Notification p {
+  margin: 0;
+  padding: 0;
+}
+
+.Notification.success {
+  background-color: rgba(100, 226, 100, 0.712);
+  color: white;
+}
+.Notification.error {
+  background-color: rgb(224, 64, 64);
+  color: white;
+}
+.Notification.exit {
+  animation: SlideRight 0.4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes SlideRight {
+  0% {
+    margin-left: 0%;
+  }
+  100% {
+    margin-left: 120%;
+  }
+}
+
+.Notification.remove {
+  display: none;
+}
+/*
+p {
+  margin-left: 10px;
+}
+
+.Notificaiton.exit {
+  animation: SlideRight 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes SlideRight {
+  0% {
+    margin-left: 0%;
+  }
+  100% {
+    margin-left: 120%;
+  }
+} */
+
+/* .NotificationContainer {
+  position: fixed;
+  background-color: transparent;
+  width: 250px;
+  height: 100%;
+  right: 0;
+  top: 20px;
+}
+.Notification {
+  height: 40px;
+  width: 250px;
+  background-color: aqua;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: SlideLeft 0.4s;
+  animation-fill-mode: forwards;
+  margin-bottom: 10px;
+}
+
+@keyframes SlideLeft {
+  0% {
+    margin-left: 120%;
+  }
+  100% {
+    margin-left: -10px;
+  }
+}
+.Notification p {
+  margin: 0;
+  padding: 0;
+}
+
+.Notification.success {
+  background-color: rgb(23, 199, 23);
+  color: white;
+}
+.Notification.error {
+  background-color: red;
+  color: white;
+}
+.Notification.exit {
+  animation: SlideRight 0.4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes SlideRight {
+  0% {
+    margin-left: 0%;
+  }
+  100% {
+    margin-left: 120%;
+  }
+} */

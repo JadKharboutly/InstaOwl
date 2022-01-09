@@ -1,0 +1,153 @@
+body {
+  overflow-x: hidden;
+  overflow: hidden;
+}
+.Home {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background-color: transparent;
+  top: 0%;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+input {
+  border: 1px solid rgb(255, 255, 255);
+  height: 20px;
+  border-radius: 50px;
+  padding-left: 10px;
+  margin: 0;
+}
+input:focus {
+  outline: none;
+}
+button {
+  width: 100px;
+}
+.input {
+  background-color: rgb(185, 250, 199);
+  height: 30px;
+  width: 200px;
+}
+.input:focus {
+  background-color: white;
+}
+button {
+  color: white;
+  background-color: transparent;
+  border-radius: 40px;
+  border: 3px solid white;
+  font-size: 20px;
+  cursor: pointer;
+  /* display: none; */
+}
+button:hover {
+  background-color: white;
+  color: rgb(185, 250, 199);
+}
+.Options {
+  width: 1200px;
+  height: 250px;
+  /* background-color: tomato; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.option {
+  width: 225px;
+  height: 175px;
+  background-color: rgb(173, 245, 179);
+  border-radius: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  cursor: pointer;
+  border: 1px solid white;
+  opacity: 0.8;
+
+  box-shadow: rgba(59, 117, 72, 0.8) 0px 5px, rgba(59, 117, 72, 0.3) 0px 10px,
+    rgba(59, 117, 72, 0.2) 0px 15px, rgba(59, 117, 72, 0.1) 0px 20px,
+    rgba(59, 117, 72, 0.05) 0px 25px;
+}
+.Ghostpic {
+  width: 75px;
+  height: 100px;
+  background-image: url("https://i.ibb.co/hYzgm5d/ghost2.png");
+  background-size: 75px;
+}
+
+.Snakepic {
+  width: 75px;
+  height: 73px;
+  background-image: url("https://i.ibb.co/wN0pvf8/snake3.png");
+  margin-top: 10px;
+  background-size: 75px;
+  margin-bottom: 5px;
+}
+
+.Graphpic {
+  width: 73px;
+  height: 75px;
+  background-image: url("https://i.ibb.co/DMgHzQd/graph.png");
+  background-size: 75px;
+  margin-bottom: 5px;
+}
+.Percentpic {
+  width: 75px;
+  height: 66px;
+  background-image: url("https://i.ibb.co/Yc93z78/percent.png");
+  background-size: 75px;
+  margin-bottom: 5px;
+}
+.option:hover {
+  background-color: white;
+  color: rgb(173, 245, 179);
+}
+.option:hover > .Ghostpic {
+  background-image: url("https://i.ibb.co/Drrh1SD/ghost.png");
+}
+.option:hover > .Snakepic {
+  background-image: url("https://i.ibb.co/cCMXj17/snake4.png");
+  height: 75px;
+}
+.option:hover > .Graphpic {
+  background-image: url("https://i.ibb.co/6spTt8y/graph2.png");
+}
+.option:hover > .Percentpic {
+  height: 70px;
+  background-image: url("https://i.ibb.co/rsQCGck/percent2.png");
+}
+/* .Notification {
+  background-color: blue;
+  position: absolute;
+  right: 0;
+  width: 150px;
+  margin-right: -180px;
+  margin-top: 60px;
+  background-color: white;
+  font-size: 15px;
+  padding: 10px;
+  height: 30px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-left: 10px green solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  transition: transform 1s;
+} */
+/* .Notification {
+  transform: translateX(-180px);
+} */
